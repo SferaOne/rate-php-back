@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<database>
+		<server>postgres</server>
+		<port>5432</port>
+		<username>postgres</username>
+		<password>postgres</password>
+		<databasename>Erzus</databasename>
+		<resultformat>0</resultformat>
+		<rdbmstype>1</rdbmstype>
+	</database>
+</configuration>
