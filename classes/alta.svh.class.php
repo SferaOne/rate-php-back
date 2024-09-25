@@ -2,8 +2,8 @@
 
 class miAltaApiService{
   private $_uri = 'https://www.alta.ru/svh-gruz/search/api/v1/?n_k=';
-  private $_user = 'sa33344';
-  private $_pass = '32JQS8CR';
+  private $_user = '';
+  private $_pass = '';
 
   private function getSecretKey($_cont_num){
     return md5($_cont_num."::::".$this->_user.":".md5($this->_pass));
